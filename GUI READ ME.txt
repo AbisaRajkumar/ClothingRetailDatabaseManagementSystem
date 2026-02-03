@@ -1,0 +1,10 @@
+GUI APPLICATION READ ME
+For the demonstration of the application component of the project, we created a Java-based GUI application. It connects to the TMU Oracle database using JDBC. This application allows users to manage a fully BCNF normalized store database. Through the GUI, users are able to drop and create the BCNF tables, populate tables with sample data, view all tables, search records using the primary key for a specific table, update any column value, delete any row, and run 5 advanced queries. The application is written in Java Swing and uses the ojdbc8 JDBC driver to connect to the Oracle hosted database.
+
+How to Open and Run the GUI:
+Download Java, you must have JDK 21 or higher installed
+Place the A9GUI.java and ojdbc8.jar files together in the same folder
+Compile the program in powershell using this command:
+javac -cp ".;ojdbc8.jar" A9GUI.java
+Run the GUI: java -cp ".;ojdbc8.jar" A9GUI
+Note: Before you compile and run, make sure you change the Oracle username and password to your own credentials
